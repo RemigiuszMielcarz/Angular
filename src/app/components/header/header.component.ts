@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -6,14 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-  title: string = 'Learn Engular';
+  title: string = 'Learn Angular';
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit(): void {
   }
 
   toggleAddTask() {
-      console.log('toggle');
+    console.log('toggle');
   }
 }
