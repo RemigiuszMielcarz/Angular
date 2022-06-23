@@ -1,10 +1,14 @@
-# LearnAngular
+# Form
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.6.
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
+## JSON server
+
+Run `npm run server` for a JSON server with tasks. Navigate to `http://localhost:5000/` for Home, `http://localhost:5000/tasks` for Resources. 
 
 ## Code scaffolding
 
